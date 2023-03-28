@@ -31,7 +31,7 @@ const Credentials = () => {
         </header>
         <div>
           <div className={styles.content}>
-            <div className={styles.timeline}>
+            <div className={styles.mark}>
               <FaGraduationCap />
             </div>
             <h2>Instituto Federal de Santa Catarina </h2>

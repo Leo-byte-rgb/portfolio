@@ -50,7 +50,7 @@ const Contact = () => {
         <h3>C O N T A T O</h3>
       </div>
       <div className={styles.resume}>
-        <h2>Eu adoraria styles.ouvir você :)</h2>
+        <h2>Eu adoraria ouvir você :)</h2>
         <p>
           Caso tenha interesse, pode me contatar, adoraria ouvi-lô, e quem sabe
           não termos uma boa conversa?

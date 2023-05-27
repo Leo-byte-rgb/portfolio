@@ -25,30 +25,25 @@ const About = () => {
       <div className={styles.resume}>
         <h2>Um pouco sobre mim.</h2>
         <img
-          src="https://media.licdn.com/dms/image/D4D03AQFaKesdZIJSpw/profile-displayphoto-shrink_400_400/0/1679253693791?e=1684972800&v=beta&t=ybDth5gewC-L9HyJo7aavKG2IQnsOmGjsAv3MzLCIQI"
-          width={75}
-          height={75}
+          src="https://media.licdn.com/dms/image/D4D03AQHk3j2DaWTvmQ/profile-displayphoto-shrink_400_400/0/1682448827885?e=1690416000&v=beta&t=pV8EAKb_DtooqrDErR294iL4msZ6oGwVvahHerO4WgI"
+          width={120}
+          height={120}
           id={styles.me}
           alt={"eu"}
           style={{ borderRadius: "100%" }}
         />
         <p>
-          Entusiasmado por tecnologia e inovação, aos 15 anos entrei no
-          Instituto Federal de Santa Cararina, onde comecei a cursar o ensino
-          médio integrado em informática, lá conheci linguagens como C e Java.
-          Com o passar do tempo comecei a estudar Javascript e Typescript,
-          atualmente atuo desenvolvendo interfaces web performáticas usando
-          ReactJS, futuramente pretendo avançar como programador FullStack.
+          Desenvolvedor Web com mais de 2 anos de experiência no mercado de
+          trabalho, especializado em tecnologias React e React Native,
+          familiarizado com boas práticas de desenvolvimento e versionamento de
+          código. Durante minha carreira, tive a oportunidade de desenvolver e
+          melhorar softwares voltados para empresas como ERPs e BIs, além de
+          atuar como bolsista lecionando aulas de programação para alunos do
+          curso Técnico Integrado em informática no Instituto Federal de Santa
+          Catarina.
         </p>
       </div>
       <div className={styles.resume} id={styles.profile}>
-        <h2>Meu perfil.</h2>
-        <p>
-          Considero-me uma pessoa proativa com fome de conhecimento, sempre
-          buscando melhorar meu nível técnico e pessoal, sou apaixonado por
-          ensinar, então, no que eu puder ajudar alguém, mesmo que seja pouco,
-          já fico extramente feliz.
-        </p>
         <ol>
           <li>
             <strong>Nome Completo:</strong>
@@ -64,7 +59,13 @@ const About = () => {
           </li>
           <li>
             <strong>Website:</strong>
-            <span>https://portfolio-six-ashy-15.vercel.app/</span>
+            <a
+              className={styles.link}
+              href="https:/leo-agostini.dev/"
+              target="_blank"
+            >
+              https:/leo-agostini.dev
+            </a>
           </li>
           <li>
             <strong>Email:</strong> <span>leon.ac@outlook.com</span>
@@ -74,11 +75,8 @@ const About = () => {
       <div className={styles.resume} id={styles.skills}>
         <h2>Minhas Habilidades.</h2>
         <p>
-          Atualmente trabalho com desenvolvimento de interfaces Web, faço
-          integrações de dados com Javascript e para o Layout da página HTML E
-          CSS, como framework/biblioteca minha escolha foi o ReactJS. E como já
-          disse anteriormente, estou sempre em busca de me aprimorar e melhorar
-          meu nível técnico.
+          Tecnologias com as quais já tive experiência dentro e fora do mercado:
+          de trabalho
         </p>
         <ul>
           <li>

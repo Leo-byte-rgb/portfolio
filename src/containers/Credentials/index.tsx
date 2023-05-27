@@ -70,39 +70,16 @@ const Credentials = () => {
             <h2>Aphesis TI - Tecnologia para negócios</h2>
             <strong>Feveiro 2021 - Julho 2022</strong>
             <hr />
-            <p>
-              Desenvolvimento de Sistema de Business Inteligence, criando
-              interfaces Web performáticas usando ReactJS para o desenvolvimento
-              da plataforma, Redux para controle de estado da aplicação e
-              Material UI e Styled Components para criar componentes
-              estilizados.
-            </p>
+            <p>Manutenção e Desenvolvimento de uma plataforma de BI.</p>
           </div>
           <div className={styles.content}>
             <div className={styles.mark}>
               <FaBriefcase />
             </div>
             <h2>M8 Sistemas</h2>
-            <strong>Julho 2022 - Presente</strong>
+            <strong>Julho 2022 - Maio 2022</strong>
             <hr />
-            <p>
-              Desenvolvimento de Sistema ERP para empresas. Utilizando ReactJS
-              com Typescript.
-            </p>
-          </div>
-          <div className={styles.content}>
-            <div className={styles.mark}>
-              <FaBriefcase />
-            </div>
-            <h2>Freelancer - Web</h2>
-            <strong>Junho 2021 - Setembro 2021</strong>
-            <hr />
-            <p>
-              Criação de Sistema de Gestão para agricultores, sistema de
-              autenticação, Layout e integração com API. No projeto fui
-              responsável por desenvolver a arquitetura do projeto onde optei
-              por usar ReactJS com Typescript.
-            </p>
+            <p>Manutenção e Desenvolvimento de um ERP.</p>
           </div>
           <div className={styles.content}>
             <div className={styles.mark}>
@@ -111,34 +88,7 @@ const Credentials = () => {
             <h2>IFSC - Monitor de Informática</h2>
             <strong>Março 2021 - Setembro 2021</strong>
             <hr />
-            <p>
-              Atuei como monitor de informática pelo Instituto Federal de Santa
-              Catarina durante o período 2021/1, onde auxiliei os alunos do
-              Câmpus com suas matérias técnicas, entre elas, Programação
-              Estruturada, Programação Orientada a Objetos, Programação
-              Orientada a Eventos, Estrutura de Dados, Lógica de Programação e
-              Desenvolvimento Web.
-            </p>
-          </div>
-          <div className={styles.content}>
-            <div className={styles.mark}>
-              <FaBriefcase />
-            </div>
-            <h2>Startup Weekend - ImigraWork</h2>
-            <strong>Novembro 2021 - Novembro 2021</strong>
-            <hr />
-            <p>
-              Durante os dias 28, 29 e 30 participei do evento Startup Weekend,
-              onde fui Campeão da edição junto com meu time. O objetivo do
-              Evento era desenvolver uma Startup em 54 horas e apresentá-la para
-              os jurados nos dias finais. Como atuante, auxiliei no levantamente
-              de Requisitos funcionais para a ideia, participei no processo de
-              criação de do MVP (Minimum viable product), entrevistei pessoas
-              para descobrir seus problemas e como eu pederia validá-los para
-              mais tarde resolvê-los, na reta final do evento, comecei as vendas
-              prévias do produto. Durante os 3 dias do evento melhorei minhas
-              SoftSkills e mudei o modo de enxergar um produto/startup.
-            </p>
+            <p>Lecionei matérias de lógica e programação para estudantes.</p>
           </div>
         </div>
       </div>

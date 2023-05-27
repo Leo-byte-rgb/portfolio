@@ -1,4 +1,4 @@
-import { memo } from "react";
+import { memo, useRef } from "react";
 import styles from "./style.module.scss";
 
 import Button from "../../components/Button";
@@ -10,10 +10,15 @@ import {
 } from "react-icons/ai";
 
 const Landing = () => {
-  const scrollTo = () => window.scrollTo({ top: 0, behavior: "smooth" });
+  const containerRef = useRef<HTMLDivElement>(null);
+  const scrollTo = () =>
+    window.scrollTo({
+      top: containerRef.current?.offsetHeight ?? 0,
+      behavior: "smooth",
+    });
 
   return (
-    <div id={styles.container}>
+    <div id={styles.container} ref={containerRef}>
       <section id={styles.landing}>
         <h1>Leonardo Agostini Costa</h1>
         <div id={styles.infos}>

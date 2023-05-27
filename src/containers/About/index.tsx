@@ -59,16 +59,6 @@ const About = () => {
             <span>Desenvolvimento Front-End</span>
           </li>
           <li>
-            <strong>Website:</strong>
-            <Link
-              className={styles.link}
-              href="https:/leo-agostini.dev"
-              target=""
-            >
-              https:/leo-agostini.dev
-            </Link>
-          </li>
-          <li>
             <strong>Email:</strong> <span>leon.ac@outlook.com</span>
           </li>
         </ol>

@@ -6,6 +6,7 @@ import Button from "../../components/Button";
 
 import { HeightContext } from "../../contexts/heigths";
 import { scrollTo } from "../../utils/scrollTo";
+import Link from "next/link";
 
 const About = () => {
   const sectionRef = useRef<HTMLElement>(null);
@@ -59,13 +60,13 @@ const About = () => {
           </li>
           <li>
             <strong>Website:</strong>
-            <a
+            <Link
               className={styles.link}
-              href="https:/leo-agostini.dev/"
-              target="_blank"
+              href="https:/leo-agostini.dev"
+              target=""
             >
               https:/leo-agostini.dev
-            </a>
+            </Link>
           </li>
           <li>
             <strong>Email:</strong> <span>leon.ac@outlook.com</span>

@@ -1,0 +1,109 @@
+.container {
+  width: 290px;
+  height: auto;
+
+  background: linear-gradient(
+    159deg,
+    rgba(37, 37, 50, 0.98) 0%,
+    rgba(35, 35, 45, 0.98) 100%
+  );
+  padding: 32px 0 32px 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+  box-shadow: 0 1px 4px 0 rgba(15, 15, 20, 0.1);
+}
+
+.name {
+  margin-top: 12px;
+  font-size: 16px;
+  color: var(--text-color-secondary);
+}
+
+.name:hover {
+  color: var(--color-primary);
+  transition: all 0.6s ease;
+}
+
+.job_description {
+  color: var(--text-color-primary);
+  font-size: 12px;
+}
+
+.profile_img_wrapper {
+  position: relative;
+  width: 90px;
+  height: 90px;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.6);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+
+.profile_img_wrapper::before {
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  content: "";
+  width: 15px;
+  height: 15px;
+  border-radius: 100px;
+
+  background: var(--color-primary);
+
+  z-index: 2;
+}
+
+.profile_img_wrapper::after {
+  position: absolute;
+  bottom: -4px;
+  right: 6px;
+  content: "";
+  width: 23px;
+  height: 23px;
+  border-radius: 100px;
+
+  background: #fafafc;
+
+  animation: pulse infinite 1s;
+}
+
+.profile_img {
+  width: 90px;
+  height: 90px;
+
+  border-radius: 100%;
+}
+
+.tooltip-container {
+  background: #191923;
+
+  width: 45px;
+  height: 25px;
+
+  color: var(--text-color-primary);
+}
+
+.tooltip-container::after {
+  width: 0;
+  height: 0;
+
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid #191923;
+
+  position: absolute;
+  left: 0;
+  top: 50%;
+}

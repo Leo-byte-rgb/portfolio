@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: "Times New Roman", Times, serif;
+}
+
+:root {
+  --color-primary: #ffc107;
+  --text-color-primary: #8c8c8e;
+  --text-color-secondary: #fafafc;
+  --text-color-contrast: #ffffff;
+
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+
+  --skill-1-progress: 0;
+  --skill-2-progress: 0;
+  --skill-3-progress: 0;
+  --skill-4-progress: 0;
+  --skill-5-progress: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}

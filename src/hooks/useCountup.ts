@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 
-interface CountupParamets {
+export interface CountupParamets {
   start: number;
   target: number;
 

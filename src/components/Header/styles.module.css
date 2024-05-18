@@ -1,0 +1,32 @@
+#header {
+  width: 100%;
+  height: 46px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.counter,
+.counter_plus {
+  color: var(--color-primary);
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.counter_plus {
+  margin-left: 2px;
+}
+
+.counter_wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.counter_description {
+  margin-left: 12px;
+
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--text-color-secondary);
+}
